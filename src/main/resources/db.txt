@@ -1,0 +1,2 @@
+CREATE SEQUENCE user_ids;
+create table user_ (id INTEGER PRIMARY KEY DEFAULT NEXTVAL('user_ids'),  login char(256), password char(256), fio char(256), sex char(256),  age integer);
